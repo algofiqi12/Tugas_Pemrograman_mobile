@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="125dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/icon_cewe"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="345dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="110dp"
+        android:layout_height="138dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_cowo1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="110dp"
+        android:layout_height="138dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_cowo2"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="577dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="114dp"
+        android:layout_height="148dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_cowo3"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="110dp"
+        android:layout_height="138dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_cowo4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="110dp"
+        android:layout_height="138dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/garis"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-26dp" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="455dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baground_ijo"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-66dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="110dp"
+        android:layout_height="138dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/garis"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-18dp" />
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="86dp"
+        android:text="JONO"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="86dp"
+        android:text="YANTO"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="86dp"
+        android:text="YANTI"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="86dp"
+        android:text="GILANG"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="86dp"
+        android:text="DONO"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="629dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

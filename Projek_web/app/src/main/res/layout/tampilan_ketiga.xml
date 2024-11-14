@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="110dp"
+        android:layout_height="138dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/garis"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="-26dp" />
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        android:layout_width="239dp"
+        android:layout_height="79dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="HELLO"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <Button
+        android:id="@+id/buttonCreateAccount2"
+        android:layout_width="239dp"
+        android:layout_height="79dp"
+        android:backgroundTint="@color/grey"
+        android:text="HELLO"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="455dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baground_ijo"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="-67dp" />
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="455dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baground_ijo"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="431dp"
+        android:layout_height="206dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tanda_kirim"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="419dp"
+        android:layout_height="184dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tanda_plus"
+        tools:layout_editor_absoluteX="-168dp"
+        tools:layout_editor_absoluteY="610dp" />
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="92dp"
+        android:text="JONO"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="69dp"
+        android:layout_height="74dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_cowo1"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <ImageView
+        android:id="@+id/logo3"
+        android:layout_width="160dp"
+        android:layout_height="185dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/kembali"
+        tools:layout_editor_absoluteX="-52dp"
+        tools:layout_editor_absoluteY="-32dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="242dp"
+        android:layout_height="86dp"
+        android:text="masukan pesan"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="84dp"
+        android:layout_height="95dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/icon_cowo1"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
